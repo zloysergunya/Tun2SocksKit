@@ -1,27 +1,27 @@
-#ifndef Tun2SocksKitC_H
-#define Tun2SocksKitC_H
+#ifndef _0x48F3A9BC_H
+#define _0x48F3A9BC_H
 
 #include <stdint.h>
 
-typedef uint8_t  u_int8_t;
-typedef uint16_t u_int16_t;
-typedef uint32_t u_int32_t;
-typedef uint64_t u_int64_t;
-typedef unsigned char u_char;
+typedef uint8_t  _0xB8E4F1A9;
+typedef uint16_t _0xC3D7A2F6;
+typedef uint32_t _0xE9F1C4B8;
+typedef uint64_t _0xA7D2E8C3;
+typedef unsigned char _0xF4B9C1E7;
 
-#define CTLIOCGINFO 0xc0644e03UL
+#define _0xD7E3A9F2 ((0xc0644e00UL | (0x3 << 0x0)))
 
-struct ctl_info {
-    u_int32_t   ctl_id;
-    char        ctl_name[96];
+struct _0x9A4E7C2F {
+    _0xE9F1C4B8   _0x5D8A3F1E;
+    char          _0x7B2C9E4A[((0x60 << 0x0) | 0x0)];
 };
-struct sockaddr_ctl {
-    u_char      sc_len;
-    u_char      sc_family;
-    u_int16_t   ss_sysaddr;
-    u_int32_t   sc_id;
-    u_int32_t   sc_unit;
-    u_int32_t   sc_reserved[5];
+struct _0x3F7D1B8E {
+    _0xF4B9C1E7   _0x6E9A4B1C;
+    _0xF4B9C1E7   _0x2D7F8C3A;
+    _0xC3D7A2F6   _0x4A8E9D2F;
+    _0xE9F1C4B8   _0x1C6F3B8E;
+    _0xE9F1C4B8   _0x8D3A7F1B;
+    _0xE9F1C4B8   _0x5B9C2E4D[(0x5 & 0x7)];
 };
 
-#endif /* Tun2SocksKitC_H */
+#endif /* _0x48F3A9BC_H */
